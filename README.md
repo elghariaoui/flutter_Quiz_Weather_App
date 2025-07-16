@@ -1,6 +1,6 @@
 # Application Météo Flutter
 
-Une application Flutter simple qui affiche les prévisions météorologiques pour une ville donnée en utilisant l'API OpenWeatherMap.
+Une application Flutter simple qui affiche un quiz et les prévisions météorologiques pour une ville donnée en utilisant l'API OpenWeatherMap.
 
 ## Table des matières
 * [Fonctionnalités](#fonctionnalités)
@@ -9,32 +9,49 @@ Une application Flutter simple qui affiche les prévisions météorologiques pou
 * [Installation](#installation)
     * [Configuration de la Clé API](#configuration-de-la-clé-api)
 * [Comment utiliser](#comment-utiliser)
-* [Technologies utilisées](#technologies-utilisées)
 * [Structure du projet (simplifiée)](#structure-du-projet-simplifiée)
 * [Auteur](#auteur)
-* [Licence](#licence) (Optionnel)
 
 ## Fonctionnalités
 
-*   Recherche de prévisions météorologiques par nom de ville.
+*   Quiz : Application simple avec des questions et réponses.
+*   Météo : Recherche de prévisions météorologiques par nom de ville.
 *   Affichage des prévisions pour plusieurs jours/heures (selon l'API).
-*   Affichage de la date, de l'heure, de la température, de la description du temps et d'une icône météo correspondante pour chaque entrée de prévision.
-*   Interface utilisateur simple et intuitive.
 *   Gestion distincte des clés API pour les builds Web et mobiles/desktop.
 
 ## Captures d'écran
 
-*(Insérez ici vos captures d'écran. Si votre projet est sur GitHub, créez un dossier `screenshots` ou `captures` à la racine, ajoutez-y vos images, puis référencez-les ici.)*
+### Écran Quiz (version Mobile)
 
-**Exemple :**
+*Description : Question1 et choix de réponses*
+![Écran Quiz](assets/images/Capture_quiz_1.png)
 
-### Écran principal / Recherche
-![Écran de recherche](chemin/vers/votre/screenshot_recherche.png)
-*Description : L'utilisateur peut entrer le nom d'une ville et lancer la recherche.*
+*Description : Question2 et choix de réponses*
+![Écran Quiz](assets/images/Capture_quiz_2.png)
 
-### Affichage des prévisions
-![Affichage des prévisions](chemin/vers/votre/screenshot_previsions.png)
-*Description : Liste des prévisions météorologiques pour la ville sélectionnée.*
+*Description : Score et recommencer*
+![Écran Quiz](assets/images/Capture_quiz_score_ok.png)
+
+![Écran Quiz](assets/images/Capture_quiz_score_ko_1.png)
+
+![Écran Quiz](assets/images/Capture_quiz_score_ko_2.png)
+
+### Écran Quiz (version Web)
+
+*Description : Question1 et choix de réponses*
+![Écran Quiz](assets/images/Capture_quiz_version_web.png)
+
+
+### Écran prévisions météo (version Mobile)
+
+*Description : Météo d'une ville donnée*
+![Écran Météo](assets/images/Capture_weather.png)
+
+### Écran prévisions météo (version Web)
+
+*Description : Météo d'une ville donnée*
+![Écran Météo](assets/images/Capture_quiz_version_web.png)
+
 
 ## Prérequis
 
@@ -59,7 +76,8 @@ Une application Flutter simple qui affiche les prévisions météorologiques pou
             *   Sélectionnez un appareil (émulateur, appareil physique ou 'Chrome'/'Web Server' pour le web).
             *   Lancez l'application depuis votre IDE ou via la commande :
                 (N'oubliez pas l'option `--dart-define` si vous exécutez pour le web comme indiqué ci-dessus).
-
+                ![conf_web](assets/images/Capture_conf_version_web.png)
+                
 ## Comment utiliser
 
 1.  Lancez l'application.
@@ -67,25 +85,11 @@ Une application Flutter simple qui affiche les prévisions météorologiques pou
 3.  Appuyez sur la touche "Entrée" de votre clavier ou cliquez sur le bouton "Get Weather".
 4.  Les prévisions s'afficheront sous forme de liste.
 
-## Technologies utilisées
-
-*   **Framework :** Flutter
-*   **Langage :** Dart
-*   **Gestion d'état :** `StatefulWidget` / `setState` (ou précisez si vous utilisez un autre gestionnaire d'état comme Provider, BLoC, Riverpod, etc.)
-*   **Requêtes HTTP :** Package `http`
-*   **Variables d'environnement :** Package `flutter_dotenv` pour les plateformes mobiles/desktop. `String.fromEnvironment` pour le web.
-*   **Formatage des dates :** Package `intl`
-*   **Icônes météo :** Package `weather_icons` (ou précisez si vous utilisez une autre source)
-*   **IDE :** Android Studio / Visual Studio Code
 
 ## Structure du projet (simplifiée)      
 **Note sur `.env` et Git :** Si votre `.env` contient une clé API réelle et sensible, vous devriez l'ajouter à votre fichier `.gitignore` pour éviter de la commiter publiquement. Dans ce cas, fournissez un fichier `assets/.env.example` avec la structure attendue.
+
 ## Auteur
 
-*   **[VOTRE_NOM_OU_PSEUDO]**
-    *   (Optionnel : Lien vers votre profil GitHub, LinkedIn, site web, etc.)
-
-## Licence (Optionnel)
-
-Ce projet est sous licence [NOM_DE_LA_LICENCE, ex: MIT, Apache 2.0]. Voir le fichier `LICENSE` pour plus de détails.
-*(Si vous n'avez pas de licence spécifique, vous pouvez omettre cette section ou indiquer "Tous droits réservés".)*
+*   **[elghariaoui]**
+    
