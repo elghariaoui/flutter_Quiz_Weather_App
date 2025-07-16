@@ -77,6 +77,7 @@ Une application Flutter simple qui affiche un quiz et les prévisions météorol
 1.  **Clonez le dépôt :**
 2.  **Installez les dépendances Flutter :**
     Assurez-vous que vous avez les dépendances Flutter installées (http, intl, weather_icons, flutter_dotenv)
+
     ![Écran Dependances](assets/images/Capture_dependances.png)
 
 3.  **Configuration de la Clé API :**
