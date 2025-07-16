@@ -33,12 +33,20 @@ Une application Flutter simple qui affiche un quiz et les prévisions météorol
   <img src="assets/images/Capture_quiz_2.png" alt="Question2 et choix de réponses" width="350"/>
 </p>
 
-*Description : Score et recommencer*
-![Écran Quiz](assets/images/Capture_quiz_score_ok.png)
+<p align="center">
+  <em>Score et recommencer</em><br/>
+  <img src="assets/images/Capture_quiz_score_ok.png" alt="Score et recommencer" width="350"/>
+</p>
 
-![Écran Quiz](assets/images/Capture_quiz_score_ko_1.png)
+<p align="center">
+  <em>Réponse incorrecte et score</em><br/>
+  <img src="assets/images/Capture_quiz_score_ko_1.png" alt="Réponse incorrecte et score" width="350"/>
+</p>
 
-![Écran Quiz](assets/images/Capture_quiz_score_ko_2.png)
+<p align="center">
+  <em>Réponse incorrecte et score</em><br/>
+  <img src="assets/images/Capture_quiz_score_ko_2.png" alt="Réponse incorrecte et score" width="350"/>
+</p>
 
 ### Écran Quiz (version Web)
 
