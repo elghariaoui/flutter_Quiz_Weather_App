@@ -56,8 +56,10 @@ Une application Flutter simple qui affiche un quiz et les prévisions météorol
 
 ### Écran prévisions météo (version Mobile)
 
-*Description : Météo d'une ville donnée*
-![Écran Météo](assets/images/Capture_weather.png)
+<p align="center">
+  <em>Météo d'une ville donnée</em><br/>
+  <img src="assets/images/Capture_quiz_weather.png" alt="Météo d'une ville donnée" width="350"/>
+</p>
 
 ### Écran prévisions météo (version Web)
 
