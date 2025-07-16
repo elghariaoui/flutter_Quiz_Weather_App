@@ -48,7 +48,6 @@ Une application Flutter simple qui affiche un quiz et les prévisions météorol
 
 ### Écran Quiz (version Web)
 
-*Description : Question1 et choix de réponses*
 ![Écran Quiz](assets/images/Capture_quiz_version_web.png)
 
 
@@ -61,8 +60,7 @@ Une application Flutter simple qui affiche un quiz et les prévisions météorol
 
 ### Écran prévisions météo (version Web)
 
-*Description : Météo d'une ville donnée*
-![Écran Météo](assets/images/Capture_quiz_version_web.png)
+![Écran Météo](assets/images/Capture_weather_version_web.png)
 
 
 ## Prérequis
