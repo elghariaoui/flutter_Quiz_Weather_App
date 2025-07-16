@@ -23,8 +23,10 @@ Une application Flutter simple qui affiche un quiz et les prévisions météorol
 
 ### Écran Quiz (version Mobile)
 
-*Description : Question1 et choix de réponses*
-![Écran Quiz](assets/images/Capture_quiz_1.png)
+<p align="center">
+  <em>Question1 et choix de réponses/em><br/>
+  <img src="assets/images/Capture_quiz_1.png" alt="Question1 et choix de réponses" width="350"/>
+</p>
 
 *Description : Question2 et choix de réponses*
 ![Écran Quiz](assets/images/Capture_quiz_2.png)
